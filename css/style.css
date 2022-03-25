@@ -281,9 +281,10 @@ header {
     box-shadow: var(--bs);
 }
 .btn-container {
-    width: 90%;
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 3em;
 }
 /* About me */
@@ -430,9 +431,6 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
-    }
-    .btn-container {
-        width: 80%;
     }
     .container-skills {
         grid-template-columns: repeat(3, minmax(85px, 250px));
