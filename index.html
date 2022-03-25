@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans+Condensed:wght@300;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Martyna Warminska Porfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+     <!-- Introduction -->
+     <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Martyna<br>Warminska</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">junior front-end dev</p>
+        <img src="img/martyna-square.jpg" alt="a picture of Martyna Warminska" class="intro__img">
+    </section>
+
+     <!-- My work -->
+     <section class="my-works" id="work">
+        <h2 class="section__title section__title--work">My projects</h2>
+        <div class="projects">
+            <div class="work">
+                <h3>Metric/imperial<br> converter</h3>
+                <p>Conversion calculator converts between common units of lenght, volume and mass. Built with JavaScript, CSS and HTML.</p>
+                <img src="img/converter.png" alt="a picture of converter" class="work__img">
+                <div class="btn-container">
+                    <a href="https://martwarm.github.io/unit-converter/" target=”_blank” class="btn">Live demo</a>
+                    <a href="https://github.com/martwarm/unit-converter" target=”_blank” class="btn">GitHub repo</a>
+            
+                </div> 
+            </div>
+            
+            <div class="work">
+                <h3>Personalised dashboard</h3>
+                <p>Personalised dashboard highlighting the Bitcoin value, current time and weather. Built using different APIs and JavaScript.</p>
+                <img src="img/dashboard.png" alt="a picture of personalised dashboard" class="work__img">
+                <div class="btn-container">
+                    <a href="https://martwarm.github.io/chrome-dashboard/" target=”_blank” class="btn">Live demo</a>
+                    <a href="https://github.com/martwarm/chrome-dashboard/" target=”_blank” class="btn">GitHub repo</a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <h3> Pac-man game </h3>
+                <p>An oldschool Pac-man game written with HTML, CSS and Javascript. Move Pac-man using your arrow keys!</p><p></p>
+                <img src="img/pacman.png" alt="a picture of pacman game" class="work__img">
+                <div class="btn-container">
+                    <a href="https://martwarm.github.io/pacman-game/" target=”_blank” class="btn">Live demo</a>
+                    <a href="https://github.com/martwarm/pacman-game" target=”_blank” class="btn">GitHub repo</a>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">A pet groomer who felt in love with frontend</p>
+            
+        <div class="about-me__body">
+            <p>I am a former pet groomer who always was interested in web design. At the beggining, still in my school years, i was playing around with blogging using my basic knowlege of html. Over the years this has become a real passion of creating convenient user interfaces.  </p>
+            <p>I learned frontend development skills on Scrimba online workshops and I am currently learning React through building websites and applications.</p>
+        </div>
+        <img src="img/Martyna2.jpeg" alt="Martyna smiling" class="about-me__img">
+    </section>
+
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--work section__title--skills">My skills & tools</h2>
+        <div class="container-skills">
+            <div class="my-skills-element">
+                <i class="devicon-html5-plain"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="my-skills-element">
+                <i class="devicon-css3-plain"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="my-skills-element">
+                <i class="devicon-javascript-plain"></i>
+                <p>JavaScript</p></div>
+            <div class="my-skills-element">
+                <i class="devicon-vscode-plain"></i>
+                <p>VS Code</p>
+            </div>
+            <div class="my-skills-element">
+                <i class="fas fa-tablet-alt"></i>
+                <p>Responsive design</p>
+            </div>
+
+            <div class="my-skills-element">
+                <i class="fas fa-cogs"></i>
+                <p>Restful APIs</p>
+            </div>
+        </div>
+
+
+    </section>
+    <footer class="footer" id="contact">
+        <a href="mailto:martwarm@gmail.com" class="footer-link">martwarm@gmail.com</a>
+                    <ul class="social-list">
+                        <li class="social-list__item">
+                            <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/martyna-warminska-452429235/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__link" target="_blank" href="https://www.facebook.com/mwarminska/">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__link" target="_blank" href="https://github.com/martwarm">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/0b2269397f.js" crossorigin="anonymous"></script>
+</body>
+</html>
